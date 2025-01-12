@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    height: 100vh; /* اجعل ارتفاع الجسم 100% من ارتفاع الصفحة */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* محاذاة اللوجو في المنتصف */
+.logo-container {
+    display: flex;
+    justify-content: center; /* محاذاة العناصر أفقياً في المنتصف */
+    align-items: center;    /* محاذاة العناصر عمودياً في المنتصف */
+    height: 100%;           /* اجعل الحاوية تأخذ كامل ارتفاع الصفحة */
+}
+
+.logo {
+    max-width: 200px; /* تعيين أقصى عرض للصورة لتجنب أن تكون ضخمة */
+    height: auto;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#result {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+}
